@@ -1,0 +1,28 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "Driver.o",
+      "Driver.cpp"
+    ],
+    "directory": ".",
+    "file": "./Driver.cpp",
+    "output": "./Driver.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "Josephus.o",
+      "Josephus.cpp"
+    ],
+    "directory": ".",
+    "file": "./Josephus.cpp",
+    "output": "./Josephus.o"
+  }
+]
