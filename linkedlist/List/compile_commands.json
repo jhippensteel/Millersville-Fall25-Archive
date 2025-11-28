@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-g",
+      "-o",
+      "ListDriver",
+      "ListDriver.cc"
+    ],
+    "directory": ".",
+    "file": "./ListDriver.cc",
+    "output": "./ListDriver"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-g",
+      "-o",
+      "ArrayDriver",
+      "ArrayDriver.cc"
+    ],
+    "directory": ".",
+    "file": "./ArrayDriver.cc",
+    "output": "./ArrayDriver"
+  }
+]

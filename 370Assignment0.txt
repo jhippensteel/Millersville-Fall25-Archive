@@ -1,0 +1,38 @@
+1. shaw (hostname)
+
+2. C++ (cpp --version) and Python (python --version). A high level language is either compiled or interpreted. In a compiled language such as C or C++, a compiler translates a high leve language into machine code that a computer can understand. To do this, a compiler performs lexical analysis to break source code into tokens such as keywords, identifiers, operators, and punctuation, then syntax analysis where the compiler parses source code, checking for syntax errors and generating a syntax tree to represent the code's structure. Next, the compiler performs semantic analysis to find the meaning of the code and check for logical code errors. Optionally, the compiler may perform optimization to improve code performance, and finally, code generation where the compiler generates assembly code which is translated to machine code via an assembler that is readable by the computer. Interpreters for interpreted languages follow a similar process, however the code is translated to machine code line by line.
+
+3. GNU Assmbler version 2.45.0 (as-version)
+
+section        .text         
+global         _start          
+_start:
+    mov edx, len 
+    mov ecx, msg 
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
+    mov eax, 1
+    int 0x80section        .data             
+    msg        db "Hello world!", 0xa
+    len        equ $ -msg
+
+4. Arch Linux. Linux 6.16.1-arch1-1 (hostnamectl)
+
+5. Intel(R) Xeon(R) Gold 6230 (lscpu). Intel 64 instruction set with support for Intel® SSE4.2, Intel® AVX, Intel® AVX2, Intel® AVX-512
+
+6. The processor has 27.5 MiB of L3 Cache, 20 MiB of L2 Cache, and 1.25 MiB of L1 Cache. The bus speed is 8 GT/s.
+
+7. (A ^ B) V (~A ^ ~B)
+
+8. Photolithography is a process used to place structures on the surface of a polymer-based photoresist. Using light, a specific geometric pattern is transfered to the photoresist by inducing chemical changes that allow the photoresist to be removed later in the process. This transfer is done either through direct laser writing or to exposure of UV light or X-rays through a photomask. UV lithography can generate patterns down to 50-100 nm. The Intel(R) Xeon(R) Gold 6230 processor transistors were manufactured using the 14 nm node.
+
+Refrences:
+	https://tech.rochester.edu/tutorials/finding-the-computer-name-on-linux/
+	https://www.geeksforgeeks.org/compiler-design/introduction-to-compilers/
+	https://www.geeksforgeeks.org/compiler-design/introduction-to-interpreters/		
+	https://pablocorbalann.medium.com/programming-a-hello-world-in-assembly-from-the-first-line-to-the-end-x86-9c48fb499238
+	https://askubuntu.com/questions/988440/how-do-i-get-the-model-name-of-my-processor
+	https://en.wikichip.org/wiki/intel/xeon_gold/6230#google_vignette
+	https://electronics.stackexchange.com/questions/10849/combinational-circuit-to-check-if-two-four-bit-numbers-are-equal
+	https://www.sciencedirect.com/topics/physics-and-astronomy/photolithography

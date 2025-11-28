@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I./support",
+      "-I.",
+      "-std=c++23",
+      "-g",
+      "-o",
+      "autograder",
+      "autograder.cpp"
+    ],
+    "directory": ".",
+    "file": "./autograder.cpp",
+    "output": "./autograder"
+  }
+]

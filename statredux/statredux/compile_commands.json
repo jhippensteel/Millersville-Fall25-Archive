@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "Driver.o",
+      "Driver.cpp"
+    ],
+    "directory": ".",
+    "file": "./Driver.cpp",
+    "output": "./Driver.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "Statistician.o",
+      "Statistician.cpp"
+    ],
+    "directory": ".",
+    "file": "./Statistician.cpp",
+    "output": "./Statistician.o"
+  }
+]

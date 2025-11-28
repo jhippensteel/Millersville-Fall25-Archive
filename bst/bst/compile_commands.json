@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-std=c++23",
+      "-o",
+      "TreeTest",
+      "TreeTest.cc"
+    ],
+    "directory": ".",
+    "file": "./TreeTest.cc",
+    "output": "./TreeTest"
+  }
+]

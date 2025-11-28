@@ -1,0 +1,29 @@
+1. 
+Location	Contents			Comments
+--------	---------			--------
+0			1					Constant
+1			100					Constant
+2			99					J
+3L			LOAD M(399)			AC <-- A[J]
+3R			SUB M(499)			AC <-- A[J] - B[J]
+4L			STOR M(599)			Write C[J]
+4R			LOAD M(2)			AC <-- J
+5L			SUB M(0)			AC <-- J - 1
+5R			JUMP +M(6,20:39)	Branch to 6R if AC >= 0
+6L			HALT				Terminate program
+6R			STOR M(2)			Write J
+7L			ADD M(1)			AC <-- J + 100
+7R			ADD M(1)			AC <-- J + 200
+8L			ADD M(1)			AC <-- J + 300
+8R			STOR M(3,8:19)		Update load instruction on 3L
+9L			ADD M(1)			AC <-- J + 400
+9R			STOR M(3,28:39)		Update load instruction on 3R
+10L			ADD M(1)			AC <-- J + 500
+10R			STOR M(4,8:19)		Update load instruction on 4L
+11L			JUMP(3,0:19)		Jump to 3L
+
+2.
+The main memory holds 1000 40 bit words. The MAR or Memory Address Register holds specific memory adresses of the next location to read/write. When the CPU issues a read command, the word stored at the memory location stored in the MAR is sent to the MBR or Memory Buffer Register. The MBR holds the wordbefore it is sent to the Arithmetic Logic Circuits and the Accumulator or Multiplier/Quotient
+
+3.
+The adress modify instructions are vital to the code above because the memory address of the LOAD, SUB, and STOR on 3L, 3R, and 4L needs to be change. Since there are no variables, the address must be manually changed.

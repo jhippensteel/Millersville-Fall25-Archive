@@ -1,0 +1,20 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-terminate",
+      "-Wno-unused-parameter",
+      "-o",
+      "autograder",
+      "autograder.cpp"
+    ],
+    "directory": ".",
+    "file": "./autograder.cpp",
+    "output": "./autograder"
+  }
+]
