@@ -1,15 +1,16 @@
 # Millersville Fall 2025 Project Archive
 
 ## Primary Author: Jaysen R Hippensteel
-## Secondary Authors: Chad Hogg, Gary Zoppetti, Will Killian
+## Secondary Authors: Chad Hogg, Gary Zoppetti, Will Killian, Jingnan Xie
 
-## Last Modified: 11/27/2025
+## Last Modified: 12/3/2025
 
 This repository contains a collection of programs written as part of academic studies at Millersville University during the Fall 2025 Semester
 
 The courses for which these programs are a part of are:
 - Data Structures & Algorithms (CSCI 362)
 - Computer Architecture (CSCI 370)
+- Matrix Algebra (MATH 304)
 
 Copyright (C) 2025 Jaysen Hippensteel - All rights reserved
 
