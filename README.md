@@ -15,4 +15,4 @@ The courses for which these programs are a part of are:
 Copyright (C) 2025 Jaysen Hippensteel - All rights reserved
 
 *You may use, distribute and modify code within this repository under the terms of GNU General Public License, Version 3, 29 June 2007.*
-*Please visit [the GNU website](gnu.org/licenses/gpl-3.0.en.html)*
+*Please visit [the GNU website](https://gnu.org/licenses/gpl-3.0.en.html)*
